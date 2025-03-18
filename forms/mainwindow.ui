@@ -23,6 +23,12 @@
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <widget class="QTabWidget" name="tabWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
         <property name="currentIndex">
          <number>1</number>
         </property>
@@ -251,13 +257,16 @@
          <item>
           <widget class="QTableWidget" name="regTable">
            <attribute name="horizontalHeaderDefaultSectionSize">
-            <number>60</number>
+            <number>100</number>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
            </attribute>
            <attribute name="verticalHeaderVisible">
             <bool>false</bool>
            </attribute>
            <attribute name="verticalHeaderDefaultSectionSize">
-            <number>18</number>
+            <number>21</number>
            </attribute>
            <column>
             <property name="text">
@@ -290,7 +299,7 @@
        <item row="0" column="0">
         <widget class="QLabel" name="label_10">
          <property name="text">
-          <string>Raw data received:</string>
+          <string>Raw Data</string>
          </property>
         </widget>
        </item>
@@ -408,7 +417,7 @@
           <number>75</number>
          </attribute>
          <attribute name="verticalHeaderDefaultSectionSize">
-          <number>18</number>
+          <number>21</number>
          </attribute>
          <column>
           <property name="text">
@@ -454,7 +463,7 @@
      <x>0</x>
      <y>0</y>
      <width>1021</width>
-     <height>25</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
