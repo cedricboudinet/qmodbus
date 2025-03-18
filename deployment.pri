@@ -17,4 +17,8 @@ win32 {
 
 target.path = $$PREFIX
 
-INSTALLS += target
+desktop.path  = $$PREFIX/share/applications
+desktop.files = qmodbus.desktop
+icons.path = $$PREFIX/share/qmodbus/
+icons.files=data/logo.png
+INSTALLS += target desktop icons

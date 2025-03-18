@@ -58,5 +58,6 @@ FORMS += forms/mainwindow.ui \
 RESOURCES += data/qmodbus.qrc
 
 RC_FILE += qmodbus.rc
+QMAKE_SUBSTITUTES += qmodbus.desktop.in
 
 include(deployment.pri)

@@ -2,8 +2,9 @@
 Type=Application
 Name=QModBus
 Comment=ModBus master emulator with GUI
-Exec=qmodbus
-Icon=qmodbus
+Exec=$$target.path/qmodbus
+Icon=$$icons.path/logo.png
 Terminal=false
 Categories=Development;Electronics;
 Keywords=embedded electronics;electronics;microcontroller;
+X-Desktop-File-Install-Version=0.01
