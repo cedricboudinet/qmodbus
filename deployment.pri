@@ -21,7 +21,7 @@ unix {
 	}
 }
 
-target.path = $$PREFIX
+target.path = $$PREFIX/bin
 
 desktop.path  = $$PREFIX/share/applications
 desktop.files = qmodbus.desktop
