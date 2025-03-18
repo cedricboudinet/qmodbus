@@ -17,7 +17,7 @@ win32 {
 
 unix {
 	isEmpty(PREFIX) {
-		PREFIX = /usr/local/bin
+		PREFIX = /usr/local
 	}
 }
 
@@ -25,6 +25,6 @@ target.path = $$PREFIX/bin
 
 desktop.path  = $$PREFIX/share/applications
 desktop.files = qmodbus.desktop
-icons.path = $$PREFIX/share/qmodbus/
+icons.path = $$PREFIX/share/qmodbus
 icons.files=data/logo.png
 INSTALLS += target desktop icons
